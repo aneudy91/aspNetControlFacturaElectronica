@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="righo13-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Desarrollo\\Proyectos\\TeamFundation\\ControlFacturacionElectronica\\ControlFacturacionElectronica\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Desarrollo\\Proyectos\\TeamFundation\\ControlFacturacionElectronica\\ControlFacturacionElectronica\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="conn-Web.config Connection String" description="" value="Data Source=SQL5004.myWindowsHosting.com;Initial Catalog=DB_9BB153_ControlFacturas;Persist Security Info=True;User ID=DB_9BB153_ControlFacturas_admin;Password=a2b_systems" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Desarrollo\\Proyectos\\TeamFundation\\ControlFacturacionElectronica\\ControlFacturacionElectronica\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='conn']/@connectionString" />
+  </parameter>
+</parameters>

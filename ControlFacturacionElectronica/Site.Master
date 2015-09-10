@@ -1,0 +1,105 @@
+﻿<%@ master language="C#" autoeventwireup="true" codebehind="Site.master.cs" inherits="ControlFacturacionElectronica.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Sistema de Control de Facturas Electrónicas</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">Control Fact. Electrónica</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/Presentacion/FrmHome">Inicio</a></li>
+                      <% 
+                          /*Reportes Clientes*/
+                          if ( ((string)Session["IDUsuario"] != null) && ((string)Session["Tipo"] == "1")) {
+                              Response.Write("<li class=\"dropdown\"> " +
+                             " <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Reportes<span class=\"caret\"></span></a> " +
+                             " <ul class=\"dropdown-menu\" role=\"menu\"> " +
+                             "  <li><a href=\"../Presentacion/FrmRepFacturasPorFecha\">Facturas por Fecha</a></li> " +
+                             "   <li class=\"divider\"></li> " +
+                             "  <li><a href=\"../Presentacion/FrmRepFacturas\">Facturas</a></li> " +
+                             "   <li class=\"divider\"></li> " +
+                             " </ul> " +
+                             " </li>"); 
+                          } else  /*Reportes Empresa*/
+                         if ( ((string)Session["IDUsuario"] != null) && ((string)Session["Tipo"] == "0")) {                         
+                          Response.Write("<li class=\"dropdown\"> "+
+                         " <a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-expanded=\"false\">Reportes<span class=\"caret\"></span></a> "+
+                         " <ul class=\"dropdown-menu\" role=\"menu\"> "+
+                         "  <li><a href=\"../Presentacion/FrmRepFacturasPorFecha\">Facturas por Fecha</a></li> " +
+                         "   <li class=\"divider\"></li> "+
+                         "  <li><a href=\"../Presentacion/FrmRepFacturas\">Facturas</a></li> " +
+                         "   <li class=\"divider\"></li> " +
+                         " </ul> "+
+                         " </li>");
+                         }
+                              
+                       %>
+                        <li><a runat="server" href="~/About">Sobre Nosotros</a></li>
+                        <li><a runat="server" href="~/Contact">Contáctanos</a></li>
+
+                      <% 
+                          if ((string)Session["IDUsuario"] != null) {                         
+                            Response.Write("<li><a runat=\"server\" href=\"../Presentacion/FrmCerrarSession.aspx\"> (Hola "+ (string)Session["Nombre"] + "!) Cerrar Sesión</a></li>"); 
+                            } 
+                       %>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                 <%--<p>&copy; <%: DateTime.Now.Year %> - Sistema de Control de Facturación Eletrónica - a2b_system Todos los derechos reservados</p>--%>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>

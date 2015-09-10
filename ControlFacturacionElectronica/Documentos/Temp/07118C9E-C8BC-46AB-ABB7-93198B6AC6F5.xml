@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LugarExpedicion="SAN PEDRO, GARZA GARCIA,NUEVO LEON" certificado="MIIEgzCCA2ugAwIBAgIUMDAwMDEwMDAwMDAyMDIxNTM0MTcwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMTAxNzAwMzcxOVoXDTE2MTAxNzAwMzcxOVowgcQxIjAgBgNVBAMTGUFVVE9NT1RSSVogUEFSSVMgU0EgREUgQ1YxIjAgBgNVBCkTGUFVVE9NT1RSSVogUEFSSVMgU0EgREUgQ1YxIjAgBgNVBAoTGUFVVE9NT1RSSVogUEFSSVMgU0EgREUgQ1YxJTAjBgNVBC0THEFQQTAwMDcwM0JJMSAvIEJJS0I0OTA3MjRJSDQxHjAcBgNVBAUTFSAvIEJJS0I0OTA3MjRITkxDV1IwNjEPMA0GA1UECxMGVW5pZGFkMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDk9F6T6IGOo76U6yckumlGr+1ZcGhCI8RC9IdKloDkALPGKF46kJxhEA//m/QHnJEhh5Zz50c7rPJrb6xDUpn2ORiQnuAt3nkJVbuKGkZmdZCttfqf6JL/Wn/qxap1qzMoUzuK9guIjHP+WUmGUwFXxj4KoeHE6YCw4SQzZ+48BwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAKpDZApfeMC9U5YOTKdG8l2kpyb45uupTechbOtzE0IEJVOrE3WT/FfdvL4yOsiu/qpdMxPUxC4STja+iaKrgwinsFUt8f4d5ReT3Y+ZLb2KcFpixBHVrUQr7IIIUXj8RQWHS2yIg1gHQbFxtkDotKd06SDGpRV+CiDc+txJGud9VUJ+baOOXpeDjJ0o+utUC3/yoHgm83KQtVB9jiXLHDKnmNnN4eUOwUYFbxCZvTCfYI/xMI5o3QF+AXTuf6hc5xCZYWXHQAkmPrpkZ9iWyNn1S7PIGrbjSB3NEL2FcVH0krsTOO8Muqzv3x4U0AIrp0hBTY0EYHfuukkQCZOO43g==" condicionesDePago="CONTADO" fecha="2015-01-08T10:40:58" folio="22244" formaDePago="PAGO EN UNA SOLA EXHIBICION" metodoDePago="CHEQUE" noCertificado="00001000000202153417" sello="h1XbwS54KH6/EtyegVrWo7SwxHBO4GK/gQrdgVSqfYDIq+4ROAuqznF60hKyAHa6r8JBGKKZfttyEJmgK5JLsSYGwiXKVxtWcq9jdCTDpdl+8rXOascoNQcRexiSI3Gli8VYmF2RkZuSfmmMHG6RCtmaH+R+ueE7RkOMoxClLI8=" serie="RE" subTotal="642.24" tipoDeComprobante="ingreso" total="745.00" version="3.2" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd">
+  <cfdi:Emisor nombre="AUTOMOTRIZ PARIS S.A. DE C.V." rfc="APA000703BI1">
+    <cfdi:DomicilioFiscal calle="AV. LAZARO CARDENAS" codigoPostal="66266" colonia="VALLE ORIENTE" estado="NUEVO LEON" localidad="SAN PEDRO, GARZA GARCIA" municipio="SAN PEDRO, GARZA GARCIA" noExterior="2514" pais="MEXICO" />
+    <cfdi:ExpedidoEn calle="AV. LAZARO CARDENAS" codigoPostal="66266" colonia="VALLE ORIENTE" estado="NUEVO LEON" localidad="SAN PEDRO, GARZA GARCIA" municipio="SAN PEDRO, GARZA GARCIA" noExterior="2514" pais="MEXICO" />
+    <cfdi:RegimenFiscal Regimen="(REGIMEN GENERAL DE LEY PERSONAS MORALES)" />
+  </cfdi:Emisor>
+  <cfdi:Receptor nombre="INOVACIONES IMPRESAS REGIOMONTANAS. SA DE CV." rfc="IIR060210488">
+    <cfdi:Domicilio calle="LIBERTAD" codigoPostal="64720" colonia="INDEPENDENCIA" estado="N.L." localidad="MONTERREY" noExterior="1101" pais="MEXICO" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" descripcion="CONTACTOR FLASH" importe="642.24" noIdentificacion="8200523539" unidad="PIEZA" valorUnitario="642.24" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="102.76">
+    <cfdi:Traslados>
+      <cfdi:Traslado importe="102.76" impuesto="IVA" tasa="16.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital FechaTimbrado="2015-01-08T12:41:19" UUID="07118c9e-c8bc-46ab-abb7-93198b6ac6f5" noCertificadoSAT="00001000000203430011" selloCFD="h1XbwS54KH6/EtyegVrWo7SwxHBO4GK/gQrdgVSqfYDIq+4ROAuqznF60hKyAHa6r8JBGKKZfttyEJmgK5JLsSYGwiXKVxtWcq9jdCTDpdl+8rXOascoNQcRexiSI3Gli8VYmF2RkZuSfmmMHG6RCtmaH+R+ueE7RkOMoxClLI8=" selloSAT="PBQEhL1psnsdTS8vsFGEkBi/TRjQhaTMVcEXjojIkKJExmFfjbjTsxv3CPgjGxTZ0OoE1wJE0itANg3WXZN4hRxKTI6i2dtvgVgnLQ0BggACfPF0yiJoc8mA/7K0Ii4sxkZpnNdkv2XYrp9QjVyOfBpJNB+zg5VQzaFlj5feIwc=" version="1.0" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

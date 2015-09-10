@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:bfa2="http://www.buzonfiscal.com/ns/addenda/bf/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" NumCtaPago="3607" LugarExpedicion="MONTERREY , NUEVO LEÓN , MEXICO" metodoDePago="CREDITO" tipoDeComprobante="ingreso" total="394.8" subTotal="340.34" condicionesDePago="Mismo Dia" certificado="MIIEsjCCA5qgAwIBAgIUMDAwMDEwMDAwMDAyMDIwNTU1MzQwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMTAwMTIxMDEzMFoXDTE2MTAwMTIxMDEzMFowgfMxKTAnBgNVBAMTIEFVVE9aT05FIERFIE1FWElDTyBTIERFIFJMIERFIENWMSkwJwYDVQQpEyBBVVRPWk9ORSBERSBNRVhJQ08gUyBERSBSTCBERSBDVjEpMCcGA1UEChMgQVVUT1pPTkUgREUgTUVYSUNPIFMgREUgUkwgREUgQ1YxJTAjBgNVBC0THEFNRTk3MDEwOUdXMCAvIFdFU1A2OTEwMDVVUTkxHjAcBgNVBAUTFSAvIFdFU1A2OTEwMDVITkVCUFQwNjEpMCcGA1UECxMgQXV0b1pvbmUgZGUgTWV4aWNvIFMgZGUgUkwgZGUgQ1YwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKSRd7ZUtSQ7nKJ5tuCnR8dOMkVUWzQbom6FbhZ+k9e3ldABaBXyHHZsUj+xEG5GHwEZcUAan+rRt4LQdllQ8Svwc951kWjPIIRwIulHarr8hRTCxL8k3G0j5lCfkChlJEpHwvajfbtYdMGob/0lkQnWE3YUBl+1CPrIVphfbLUBAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQBjjv1tNT9LaIsaFnPD7odWsvoNFVFuLSmxVuJqfIgzYMz7tYMiMqOI0SDIKcS0vaiuVkGheN0i0dbldXi/+EO+vvZ0wDik3mPANB6usVgsSkn4XQoE8/BywtyjMUBTumbEyUw4mem+oLknhVsh+DkEsDgkUK7a40sVuuMyOSQjxGRfIl0MS9Wlh+QtTbNuEA16CNZ72vPwqOhPX8kaYgsUoQvT5mOa5evUoGkas924toVJiqwtxjdiO/vK0Cxm9MN1ZEcBps3HjOJolR20E1d9pmqmhn57DbMwVQXXnSxuI/KGiw+UlCs+saHEfn8eTLKDOYWsE55mf5IwPTii+WsJ" noCertificado="00001000000202055534" formaDePago="Pago en una sola exhibicion" sello="GHQdftAyhcFVbsX1NIzGRjtdjyacAfkH67sQLqbfBz5tfZug9evYL6gvzNxcc+ZhySd+1s/8jrw7umT74UkMzmGDUzz+rEpfltlCCwYw8GRX/UDMR7dKK+en1KxaGx3vQ0Xe7/QRHcvN3D8IbtXoY1UyHlHEMjZ28V1T+d7ppj4=" fecha="2015-07-07T20:10:18" folio="76743" serie="HBAG" version="3.2" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.buzonfiscal.com/ns/addenda/bf/2 http://www.buzonfiscal.com/schema/xsd/Addenda_BF_v20.xsd">
+  <cfdi:Emisor nombre="AutoZone de México, S. de R.L. de C.V." rfc="AME970109GW0">
+    <cfdi:DomicilioFiscal codigoPostal="88240" pais="México" estado="Tamaulipas" municipio="Nuevo Laredo" colonia="Guerrero" calle="Ave. Guerrero 2911" />
+    <cfdi:ExpedidoEn codigoPostal="64970" pais="México" estado="NUEVO LEÓN " municipio="MONTERREY " calle="EUGENIO GARZA SADA No.7015 INT C , COL. CAMPESTRE MEDEROS " />
+    <cfdi:RegimenFiscal Regimen="Regimen general de ley persona moral" />
+  </cfdi:Emisor>
+  <cfdi:Receptor nombre="GRUPO PLATTE CIA S DE RL DE CV" rfc="GPL140305MZ0">
+    <cfdi:Domicilio codigoPostal="64986" pais="México" estado="NL" municipio="MONTERREY" colonia="FRACCIONAMIENTO LOS CRISTALES" calle="AVE LOS CRISTALES 141" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto importe="172.32" valorUnitario="172.32" descripcion="CA9492   FILTRO DE AIRE " unidad="pieza" cantidad="1.0" />
+    <cfdi:Concepto importe="168.01" valorUnitario="168.01" descripcion="CFI 2272 FILTROS CABINA " unidad="pieza" cantidad="1.0" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos>
+    <cfdi:Traslados>
+      <cfdi:Traslado importe="54.46" tasa="16.0" impuesto="IVA" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloSAT="b/j4A3zMfd1P38oBlt4MK2PVKFcqZwYQiaM5bvYtoKHKkH1awO5yboe5nkl6YWQ9zuzmruQkVAvPbJYWJ93JHMaexuYFmfBzGG8LgnxOol9KyVNVxH2Vt9DNRAlKLM6wsdU14oGkrR5gpx5gX3Vy5vTXgosLzdloDIHaK5aFqLk=" noCertificadoSAT="00001000000202693892" selloCFD="GHQdftAyhcFVbsX1NIzGRjtdjyacAfkH67sQLqbfBz5tfZug9evYL6gvzNxcc+ZhySd+1s/8jrw7umT74UkMzmGDUzz+rEpfltlCCwYw8GRX/UDMR7dKK+en1KxaGx3vQ0Xe7/QRHcvN3D8IbtXoY1UyHlHEMjZ28V1T+d7ppj4=" FechaTimbrado="2015-07-07T20:10:18" UUID="0ee26445-9167-4d6b-a57a-9fc099dc9e14" version="1.0" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

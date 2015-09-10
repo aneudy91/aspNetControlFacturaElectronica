@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" version="3.2" folio="0725095" fecha="2015-01-02T15:43:43" sello="jFyYFMZTdpubCZEdKW5oKH80BqECH2rVadTQFjbBrSKxPnDwl6n4h9LQE6XoBNMLC3wkNI0tYnY2WhjWeS6QqCK3IQWjazTLnaiG4+UQ0jSfhdVNZN7TwNLG4xHn/MILxtKgaT4xL2SPLiPQofE+laBNdsAh3DTn9+cvGyQopEI=" formaDePago="PAGO EN UNA SOLA EXHIBICION" noCertificado="00001000000200471807" certificado="MIIEnjCCA4agAwIBAgIUMDAwMDEwMDAwMDAyMDA0NzE4MDcwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMDMwMzAwMTc1NFoXDTE2MDMwMzAwMTc1NFowgd8xKjAoBgNVBAMTIUFCQVNURUNFRE9SQSBERSBPRklDSU5BUyBTQSBERSBDVjEqMCgGA1UEKRMhQUJBU1RFQ0VET1JBIERFIE9GSUNJTkFTIFNBIERFIENWMSowKAYDVQQKEyFBQkFTVEVDRURPUkEgREUgT0ZJQ0lOQVMgU0EgREUgQ1YxJTAjBgNVBC0THEFPRjg3MDUyOUlVNyAvIEdPRVM1MzAzMTZJWDkxHjAcBgNVBAUTFSAvIEdPRVM1MzAzMTZITkxNTFIwMTESMBAGA1UECxMJTU9OVEVSUkVZMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDb/VJYV/tji2bEY2edssIM1M/Dnycjdj3P7iSdNxcc1pL5NzZ4JK4c2aD+6Tf7vSUh9AmoDR6h02HA5n1sf4whE1xQLcChVl4ohmbrarRckPQM36VfJUCfG92Ab4uI4Mlf+W42Nocj/mfmfNBlsdhZAZp9sVbCRp54pYB2Vq8LfQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAjvkYD6iZUnX7kFisDJqUyW1QLG/K0XwRfEH4I4HgiGkXgmTs2F8h6RwBMlNwm4YYEnh/zYlOo1O27xXWOzxjtx0idG9L3iWvN7GKrjYFWr4nJNWN6f1OmLUR7NC7F8ZPL2Zv/YJqootfKOpjbtBXq48us6/bWitMtjbuW5eReyN1wy0kfs4gx8oyxMhQvY/WN9FEWEMgQ7ITaOtUEk960OTvyMZH+8/s5Jsy8QI4d2GhPfPzPUKM23NaoyIkSPVrOoBHAqcUnvIBxYXnIKvcpR1HmtpWO240l8eVu347uliUbp3eEa+2DLu0d8MejNQlTUKH19keKvwRUZeopQMJfA==" condicionesDePago="CREDITO" subTotal="1195.140000" TipoCambio="1" Moneda="MXP" total="1386.360000" metodoDePago="TRANSFERENCIA BANCARIA" tipoDeComprobante="ingreso" LugarExpedicion="Monterrey, N.L." NumCtaPago="0013" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd">
+  <cfdi:Emisor rfc="AOF870529IU7" nombre="Abastecedora de Oficinas, S.A. de C.V.">
+    <cfdi:DomicilioFiscal calle="Zaragoza y Tapia Esq. Sureste" noExterior="S/N" colonia="Centro" localidad="Monterrey" municipio="Monterrey" estado="Nuevo Le¾n" pais="MÚxico" codigoPostal="64000" />
+    <cfdi:ExpedidoEn calle="Zaragoza y Tapia Esq. Sureste" noExterior="460" colonia="Centro" localidad="Monterrey" municipio="Monterrey" estado="Nuevo Leon" pais="Mexico" codigoPostal="64000" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="IIR060210488" nombre="INOVACIONES IMPRESAS REGIOMONTANAS, S.A. DE C.V.">
+    <cfdi:Domicilio calle="LIBERTAD 1101" noExterior="1101" colonia="INDEPENDENCIA" municipio="MONTERREY" estado="NUEVO LEON" pais="MEXICO" codigoPostal="64720" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.000000" unidad="PIEZA" noIdentificacion="064101" descripcion="PAPEL OPALINA BLANCO UNIOPALINA 57 X 87 CMS. 60 KGS. 120 GMS C/200" valorUnitario="318.000000" importe="318.000000" />
+    <cfdi:Concepto cantidad="3.000000" unidad="PIEZA" noIdentificacion="007020" descripcion="REPUESTO P/CUCHILLA OLFA ASB-10 CHICA 9MM BL/10 NAVAJAS PAQ" valorUnitario="27.650000" importe="82.950000" />
+    <cfdi:Concepto cantidad="1.000000" unidad="PIEZA" noIdentificacion="072919" descripcion="CINTA DOBLE CAPA ADHESIVA JANEL 400 24 MM X 50 MTS. POLIESTER RLL" valorUnitario="43.540000" importe="43.540000" />
+    <cfdi:Concepto cantidad="3.000000" unidad="PIEZA" noIdentificacion="032114" descripcion="CINTA MASKING JANEL 121 24 X 50 MTS. P/CUBRIR RLL" valorUnitario="16.010000" importe="48.030000" />
+    <cfdi:Concepto cantidad="1.000000" unidad="PIEZA" noIdentificacion="066516" descripcion="CINTA P/EMPAQUE CANELA TUK 179 48 X 150 MTS. C/6" valorUnitario="139.000000" importe="139.000000" />
+    <cfdi:Concepto cantidad="2.000000" unidad="PIEZA" noIdentificacion="066504" descripcion="CINTA P/EMPAQUE TRANSP. TUK 179 48 X 150 MTS. C/6" valorUnitario="139.000000" importe="278.000000" />
+    <cfdi:Concepto cantidad="1.000000" unidad="PIEZA" noIdentificacion="107934" descripcion="BOLSA CELOFAN CRISTALINE 22 X 30 CMS. C/25 CENEFA Y ADH. PAQ" valorUnitario="22.140000" importe="22.140000" />
+    <cfdi:Concepto cantidad="4.000000" unidad="PIEZA" noIdentificacion="008420" descripcion="PELICULA P/PALETIZAR 45 CMS (18&quot;)X 1000' CAL.50 ROLLO" valorUnitario="65.870000" importe="263.480000" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="191.220000">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.000000" importe="191.220000" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="A80ADA2D-6366-4DB0-B848-FF76894BA911" FechaTimbrado="2015-01-02T15:47:40" selloCFD="jFyYFMZTdpubCZEdKW5oKH80BqECH2rVadTQFjbBrSKxPnDwl6n4h9LQE6XoBNMLC3wkNI0tYnY2WhjWeS6QqCK3IQWjazTLnaiG4+UQ0jSfhdVNZN7TwNLG4xHn/MILxtKgaT4xL2SPLiPQofE+laBNdsAh3DTn9+cvGyQopEI=" noCertificadoSAT="00001000000201455572" selloSAT="S0VNbxyjyn/BhL+fokwWVar+ePEApaKOQjV1vpcobJ1FNDrUO129mUzP7SpnWHr4MTzEFgzJ1qC0pZ6vp2ur2kwhrTF1vZVB4xAtLcIFSs9sN9jRTpoK8n7GmTezFqrtRHBYeGelPV+SPWtnrGR7D5OsOBjqOlL4FW7vqBvs+WI=" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

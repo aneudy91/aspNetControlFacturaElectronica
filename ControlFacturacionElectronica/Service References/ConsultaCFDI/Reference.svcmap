@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7c7e2aef-5aea-407a-a54b-17a1421352dd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://consultaqr.facturaelectronica.sat.gob.mx/ConsultaCFDIService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ConsultaCFDIService.disco" MetadataType="Disco" ID="21385bbc-f295-44a4-9792-824922dc6330" SourceId="1" SourceUrl="https://consultaqr.facturaelectronica.sat.gob.mx/ConsultaCFDIService.svc?disco" />
+    <MetadataFile FileName="ConsultaCFDIService.xsd" MetadataType="Schema" ID="d0d7babc-25f0-4a83-95b7-fa2b7fd11d06" SourceId="1" SourceUrl="https://consultaqr.facturaelectronica.sat.gob.mx/ConsultaCFDIService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ConsultaCFDIService.wsdl" MetadataType="Wsdl" ID="4c690979-6454-4b54-90f6-d77b636cb531" SourceId="1" SourceUrl="https://consultaqr.facturaelectronica.sat.gob.mx/ConsultaCFDIService.svc?wsdl" />
+    <MetadataFile FileName="ConsultaCFDIService1.xsd" MetadataType="Schema" ID="3d3d2629-a1dc-49f2-8925-57e9e45fbd11" SourceId="1" SourceUrl="https://consultaqr.facturaelectronica.sat.gob.mx/ConsultaCFDIService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ConsultaCFDIService2.xsd" MetadataType="Schema" ID="049f76fd-1222-4f2e-86d2-75bef81ec375" SourceId="1" SourceUrl="https://consultaqr.facturaelectronica.sat.gob.mx/ConsultaCFDIService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

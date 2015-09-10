@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:bfa2="http://www.buzonfiscal.com/ns/addenda/bf/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LugarExpedicion="SANTA CATARINA , NUEVO LEÓN , MEXICO" metodoDePago="EFECTIVO" tipoDeComprobante="ingreso" total="189.9" subTotal="163.7" condicionesDePago="Mismo Dia" certificado="MIIEsjCCA5qgAwIBAgIUMDAwMDEwMDAwMDAyMDIwNTU1MzQwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEyMTAwMTIxMDEzMFoXDTE2MTAwMTIxMDEzMFowgfMxKTAnBgNVBAMTIEFVVE9aT05FIERFIE1FWElDTyBTIERFIFJMIERFIENWMSkwJwYDVQQpEyBBVVRPWk9ORSBERSBNRVhJQ08gUyBERSBSTCBERSBDVjEpMCcGA1UEChMgQVVUT1pPTkUgREUgTUVYSUNPIFMgREUgUkwgREUgQ1YxJTAjBgNVBC0THEFNRTk3MDEwOUdXMCAvIFdFU1A2OTEwMDVVUTkxHjAcBgNVBAUTFSAvIFdFU1A2OTEwMDVITkVCUFQwNjEpMCcGA1UECxMgQXV0b1pvbmUgZGUgTWV4aWNvIFMgZGUgUkwgZGUgQ1YwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKSRd7ZUtSQ7nKJ5tuCnR8dOMkVUWzQbom6FbhZ+k9e3ldABaBXyHHZsUj+xEG5GHwEZcUAan+rRt4LQdllQ8Svwc951kWjPIIRwIulHarr8hRTCxL8k3G0j5lCfkChlJEpHwvajfbtYdMGob/0lkQnWE3YUBl+1CPrIVphfbLUBAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBBQUAA4IBAQBjjv1tNT9LaIsaFnPD7odWsvoNFVFuLSmxVuJqfIgzYMz7tYMiMqOI0SDIKcS0vaiuVkGheN0i0dbldXi/+EO+vvZ0wDik3mPANB6usVgsSkn4XQoE8/BywtyjMUBTumbEyUw4mem+oLknhVsh+DkEsDgkUK7a40sVuuMyOSQjxGRfIl0MS9Wlh+QtTbNuEA16CNZ72vPwqOhPX8kaYgsUoQvT5mOa5evUoGkas924toVJiqwtxjdiO/vK0Cxm9MN1ZEcBps3HjOJolR20E1d9pmqmhn57DbMwVQXXnSxuI/KGiw+UlCs+saHEfn8eTLKDOYWsE55mf5IwPTii+WsJ" noCertificado="00001000000202055534" formaDePago="Pago en una sola exhibicion" sello="EA+UH7EEDEjI3aLfl1U8L0WDl6HBGuUsnYkANy5bMSQXNW2gy86Qe0FCpJ8x++U1YPS3zJo3iD1kvi5/sltBwkOqXA8ckYRGDVdicbYMUiMs/Cq76jyYrkDevwSJTmAqH9bK7EvUAxS3fbdIvS8b9NQ4kHkXE6DL3Q+L2xXdn80=" fecha="2015-07-03T11:12:30" folio="48700" serie="HAHF" version="3.2" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.buzonfiscal.com/ns/addenda/bf/2 http://www.buzonfiscal.com/schema/xsd/Addenda_BF_v20.xsd">
+  <cfdi:Emisor nombre="AutoZone de México, S. de R.L. de C.V." rfc="AME970109GW0">
+    <cfdi:DomicilioFiscal codigoPostal="88240" pais="México" estado="Tamaulipas" municipio="Nuevo Laredo" colonia="Guerrero" calle="Ave. Guerrero 2911" />
+    <cfdi:ExpedidoEn codigoPostal="66350" pais="México" estado="NUEVO LEÓN " municipio="SANTA CATARINA " calle="AVENIDA CUAUHTEMOC No.104  , COL. UNIDAD NACIONAL " />
+    <cfdi:RegimenFiscal Regimen="Regimen general de ley persona moral" />
+  </cfdi:Emisor>
+  <cfdi:Receptor nombre="ARTURO ORTEGA MARTINEZ" rfc="OEMA600513QN4">
+    <cfdi:Domicilio codigoPostal="64710" pais="México" estado="NL" municipio="MONTERREY" colonia="DEL CARMEN" calle="FRANCIA 3029" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto importe="163.7" valorUnitario="163.7" descripcion="06248  ACEITE SINTETICO " unidad="pieza" cantidad="1.0" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos>
+    <cfdi:Traslados>
+      <cfdi:Traslado importe="26.2" tasa="16.0" impuesto="IVA" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloSAT="zq0/1Xh6nzPHKgPZnHN4sFUhggK+1HQbgwErEUSLqlM2Rq4zQ43Y6Zgj/d+auP5OUPI6yj/HoNgQRbbJL53HhbA+2aHZ/GZo7JOgAVhQLwH/CoZ3V7LQrfHGcHZo+PPOQwF7LZdCcPLjqF0HFnx3aqB2qvUWDOTgGFIC0efk6GY=" noCertificadoSAT="00001000000202693892" selloCFD="EA+UH7EEDEjI3aLfl1U8L0WDl6HBGuUsnYkANy5bMSQXNW2gy86Qe0FCpJ8x++U1YPS3zJo3iD1kvi5/sltBwkOqXA8ckYRGDVdicbYMUiMs/Cq76jyYrkDevwSJTmAqH9bK7EvUAxS3fbdIvS8b9NQ4kHkXE6DL3Q+L2xXdn80=" FechaTimbrado="2015-07-03T11:12:30" UUID="5826301e-cdb1-4b75-b901-fcd43ec41914" version="1.0" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" noCertificado="00001000000202727939" condicionesDePago="CONTADO" formaDePago="PAGO EN UNA SOLA EXHIBICION" certificado="MIIEszCCA5ugAwIBAgIUMDAwMDEwMDAwMDAyMDI3Mjc5MzkwDQYJKoZIhvcNAQEFBQAwggGVMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSEwHwYJKoZIhvcNAQkBFhJhc2lzbmV0QHNhdC5nb2IubXgxJjAkBgNVBAkMHUF2LiBIaWRhbGdvIDc3LCBDb2wuIEd1ZXJyZXJvMQ4wDAYDVQQRDAUwNjMwMDELMAkGA1UEBhMCTVgxGTAXBgNVBAgMEERpc3RyaXRvIEZlZGVyYWwxFDASBgNVBAcMC0N1YXVodMOpbW9jMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxPjA8BgkqhkiG9w0BCQIML1Jlc3BvbnNhYmxlOiBDZWNpbGlhIEd1aWxsZXJtaW5hIEdhcmPDrWEgR3VlcnJhMB4XDTEzMDEwNDAwMTI1NFoXDTE3MDEwNDAwMTI1NFowgfQxLTArBgNVBAMTJEFVVE9NT1RSSVogQ09OVFJZIENPTUVSQ0lBTCBTQSBERSBDVjEtMCsGA1UEKRMkQVVUT01PVFJJWiBDT05UUlkgQ09NRVJDSUFMIFNBIERFIENWMS0wKwYDVQQKEyRBVVRPTU9UUklaIENPTlRSWSBDT01FUkNJQUwgU0EgREUgQ1YxJTAjBgNVBC0THEFDQzk3MTIyMkJHOCAvIFNBR0M3MjA1MzFURTYxHjAcBgNVBAUTFSAvIFNBR0M3MjA1MzFITkxOUlMwNzEeMBwGA1UECxMVTU9OVEVSUkVZIFJFRkFDQ0lPTkVTMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5u5FK4rIXzBFiwu745Na2EHDDvpoVm8YTXzrB2v8Ksn80H5pjU2sZy7uM5ivO79/ayQon6ZR7U1TVwOsvcSnEXd+8fQ1egHXeQQEBRU/Bdx4nwPNY50a8McrcEL9AztEdBIjfGhXITha6BInueCd0urNR3IiWp5yWR41BfEIIRQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEATuDQGwgUJ9/WUEip5BoUJopQu+zDYYlkU2+Q9IkBBy3CyZbVZY4aMRTYu23NtSLv1bxs+B8iV4miJ0p+Wc5zDTK8foZVSe3Sj+5+jmRvcrJKrjASoo0d8rkfKij1fmkvPP7LPm4t7nRXRrCbkF+KYTwQQBWaV4zsKNyiJo0tomOXfxYO2ury1XHVuqfLEOLKOUx+rXHwAuT/67MYYPYzq6gLWTbjXSboHCSnjJha8b88N59ONILGQ6cWmt2I3+JN0bjtrJXTXB4XkhJA1UkoEzqKNKJP95gPBC7d2ZuH3FydX8OIL69XwswssXhBMxvAHLKau1FEJ9xM9i5kllRH0g==" sello="qgCTK/WADEESSk3fJClLh4a3LPkkjddA7HGnQ5lm3uv8/T4ppaFaFR6ZyZn9XWfFUa+5H7jcjcHjafqIJc7/EtR1HZMVojx4bxsPucBjagvPaM+frGRbTLQVLKTxTuBSzL6xzT7qS1J/bYFJ8FQyQZRonfqwIAQrKzxYDYQ63NI=" fecha="2015-07-13T15:59:11" subTotal="3010.97" TipoCambio="1.0000" Moneda="MXN" total="3492.73" folio="39951" serie="MS" tipoDeComprobante="ingreso" version="3.2" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" metodoDePago="Cheque Nominativo" LugarExpedicion="MONTERREY, NUEVO LEON" NumCtaPago="No identificado">
+  <cfdi:Emisor rfc="ACC971222BG8" nombre="AUTOMOTRIZ CONTRY COMERCIAL SA DE CV">
+    <cfdi:DomicilioFiscal calle="AV EUGENIO GARZA SADA 3832 SUR" colonia="MAS PALOMAS" localidad="MONTERREY" municipio="MONTERREY" estado="NUEVO LEON" pais="MEXICO" codigoPostal="64780" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL DE LEY PERSONAS MORALES" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="GPL140305MZ0" nombre="GRUPO PLATTE CIA,S. DE R.L. DE C.V.">
+    <cfdi:Domicilio calle="AV.LOS CRISTALES 141" colonia="FRACC.LOS CRISTALES" municipio="MONTERREY" localidad="MONTERREY" estado="NUEVO LEON" pais="MEXICO" codigoPostal="64986" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1.00" unidad="SERVICIO" noIdentificacion="24550801" descripcion="REEMPLAZAR AMORTIGUADOR DE DIRECCION" valorUnitario="600.00" importe="600.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="SERVICIO" noIdentificacion="MATDIV" descripcion="MANEJO DE RESIDUOS PELIGROSOS" valorUnitario="150.00" importe="150.00" />
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" noIdentificacion="68268568AA" descripcion="BOCINA DE CLAXON Y ABRAZA" valorUnitario="722.66" importe="722.66" />
+    <cfdi:Concepto cantidad="1.00" unidad="PIEZA" noIdentificacion="52060058AF" descripcion="AMORTIGUADOR" valorUnitario="1538.31" importe="1538.31" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosTrasladados="481.76">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="481.76" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" selloCFD="qgCTK/WADEESSk3fJClLh4a3LPkkjddA7HGnQ5lm3uv8/T4ppaFaFR6ZyZn9XWfFUa+5H7jcjcHjafqIJc7/EtR1HZMVojx4bxsPucBjagvPaM+frGRbTLQVLKTxTuBSzL6xzT7qS1J/bYFJ8FQyQZRonfqwIAQrKzxYDYQ63NI=" FechaTimbrado="2015-07-13T15:57:49" UUID="71FE0211-E90F-40CD-82CC-11954DC57FB6" noCertificadoSAT="00001000000202864530" version="1.0" selloSAT="h10e2kyAevMqzS2RiMDIDIKC+zj1CH+glGFNRYXU+Y0xy1/kZeceFJQR6SUJIbF0KoHUHjAFjfG1QuLgnmHuqnasLu3fjkBunMgl9KWK5yNEcAZto59I1C7FnhUWCMBgFGH1mqXnwMu2hOPGbYROxrgrjsehqpW5Kb63z3fl1Tg=" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

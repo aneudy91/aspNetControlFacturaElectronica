@@ -1,0 +1,11 @@
+﻿body {
+    .divCentrado{
+    align-self:center;
+    text-align:center;
+}
+    .divCentrado table {
+    
+         margin: 0 auto;
+       text-align: left;
+    }
+}
