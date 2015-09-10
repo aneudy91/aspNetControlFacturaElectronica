@@ -21,6 +21,7 @@ namespace ControlFacturacionElectronica.Presentacion
     { 
         mFactura fac;
         mUsuario mUser ;
+        string nombreArchivo = null; // Se usa solo para el log que se muestra al usaurio.
         string tipoComprobante = null;
       //  string pathGeneral = "";
         public string DefaultFileName = "Upload/"; //---- is the folder where files are uploaded to
@@ -187,7 +188,8 @@ namespace ControlFacturacionElectronica.Presentacion
                     catch (Exception ex)
                     {
                         errorCount++;
-                        lLog.Text = lLog.Text + " <br/> " + ex.Message.ToString() + " corresponde al archivo: <b>" + fac.ArchivoXML + "</b> ";
+
+                        lLog.Text = lLog.Text + " <br/> " + ex.Message.ToString() + " corresponde al archivo: <b> ( " + postedFile.FileName + ")</b> ";
                             // "Ocurrió un error en la importación, por favor informe al administrador.";
                     }
 
